@@ -3,4 +3,4 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://${DISCOVERY_SERVICE_URL}:8777/eureka
+      defaultZone: http://${DISCOVERY_SERVICE_URL:localhost}:8777/eureka
