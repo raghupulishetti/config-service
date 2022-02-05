@@ -4,3 +4,5 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://${DISCOVERY_SERVICE_URL:localhost}:8777/eureka
+
+errorCodes: Application Error code for Product service
